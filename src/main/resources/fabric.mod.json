@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "furnaceboost",
+  "version": "${version}",
+  "name": "furnaceboost",
+  "description": "Boost your furnace :D",
+  "authors": [
+    "VioletMistCloudDrift"
+  ],
+  "contact": {
+    "repo": "https://github.com/VioletMistCloudDrift/FurnaceBoost"
+  },
+  "license": "Nova-Relay-License-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "neko.violetmist.furnaceboost.FurnaceBoost"
+    ]
+  },
+  "mixins": [
+    "furnaceboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}

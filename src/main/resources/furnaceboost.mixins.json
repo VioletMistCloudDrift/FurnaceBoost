@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "neko.violetmist.furnaceboost.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExtendedAFBE",
+    "MixinAbstractFurnaceBlockEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
