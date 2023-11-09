@@ -11,7 +11,7 @@ public class FurnaceBoost implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        furnaceSpeed = GameRuleRegistry.register("furnaceSpeed", GameRules.Category.UPDATES, GameRuleFactory.createDoubleRule(2.0));
+        furnaceSpeed = GameRuleRegistry.register("furnaceSpeed", GameRules.Category.UPDATES, GameRuleFactory.createDoubleRule(2.0, 0.0));
     }
 
     public static GameRules.Key<DoubleRule> getFurnaceSpeedRuleKey() {
